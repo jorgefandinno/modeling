@@ -1,14 +1,14 @@
 % ----------------------------------------------------------------------
 % \input{motivation/workflow}
-\input{modeling/workflow}
-% \input{modeling/workflow-problem}
-% \input{modeling/workflow-logic-program}
-% \input{modeling/workflow-grounding}
-% \input{modeling/workflow-solving}
-% \input{modeling/workflow-stable-models}
-% \input{modeling/workflow-solution}
+\input{../include/modeling/workflow}
+% \input{../include/modeling/workflow-problem}
+% \input{../include/modeling/workflow-logic-program}
+% \input{../include/modeling/workflow-grounding}
+% \input{../include/modeling/workflow-solving}
+% \input{../include/modeling/workflow-stable-models}
+% \input{../include/modeling/workflow-solution}
 % ----------------------------------------------------------------------
-\input{modeling/workflow-problem}
+\input{../include/modeling/workflow-problem}
 % ----------------------------------------------------------------------
 \begin{frame}{A case-study: Graph coloring}
   \bigskip
@@ -29,12 +29,13 @@
     \end{enumerate}
   \end{itemize}
   \centering
-  \only<3,4>{\vfill\input{modeling/figures/fig-graph}}
+  \only<3,4>{\vfill\input{../include/modeling/figures/fig-graph}}
 \end{frame}
 % ----------------------------------------------------------------------
-\input{modeling/workflow-logic-program}
+\input{../include/modeling/workflow-logic-program}
 % ----------------------------------------------------------------------
 \begin{frame}[fragile]{Graph coloring}
+\vspace*{-10pt}
 \pause
 \[
 \uncover<5,9->{\left.}
@@ -82,7 +83,7 @@ color(r).   color(b).   color(g).
 \bigskip
 \end{frame}
 % ----------------------------------------------------------------------
-\input{modeling/workflow-grounding}
+\input{../include/modeling/workflow-grounding}
 % ----------------------------------------------------------------------
 \begin{frame}[fragile,shrink=1]{Graph coloring: Grounding}
 %
@@ -113,7 +114,7 @@ color(r).  color(b).  color(g).
 \end{semiverbatim}
 \end{frame}
 % ----------------------------------------------------------------------
-\input{modeling/workflow-solving}
+\input{../include/modeling/workflow-solving}
 % ----------------------------------------------------------------------
 \begin{frame}[fragile,shrink=1]{Graph coloring: Solving}
 %
@@ -143,7 +144,7 @@ Time        : 0.002s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
 \end{semiverbatim}
 \end{frame}
 % ----------------------------------------------------------------------
-\input{modeling/workflow-stable-models}
+\input{../include/modeling/workflow-stable-models}
 % ----------------------------------------------------------------------
 \begin{frame}[fragile]{A coloring}
 \footnotesize
@@ -155,11 +156,11 @@ node(1)   [...]    \\
 \pause
 \medskip
 \begin{center}
-\input{modeling/figures/fig-graph-colored}
+\input{../include/modeling/figures/fig-graph-colored}
 \end{center}
 \end{frame}
 % ----------------------------------------------------------------------
-\input{modeling/workflow-solution}
+\input{../include/modeling/workflow-solution}
 % ----------------------------------------------------------------------
 %
 %%% Local Variables:
